@@ -229,8 +229,8 @@ const Properties = () => {
                       size={10}
                       style={{ flexWrap: "wrap" }}
                     >
-                      <Input placeholder="Minimum Price" />
-                      <Input placeholder="Maximum Price" />
+                      <Input placeholder="Minimum Price" disabled />
+                      <Input placeholder="Maximum Price" disabled />
                     </Space>
                   </Col>
                 </Row>{" "}
