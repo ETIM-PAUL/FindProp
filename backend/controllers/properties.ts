@@ -31,7 +31,6 @@ export const selectedProperties = async (_req: Request, res: Response) => {
 
 export const showProperty = async (_req: Request, res:Response) => {
   const id = _req?.params;
-  console.log (id)
 
   try {
     const property = (await collections.Properties?.findOne(id)) as Property    
